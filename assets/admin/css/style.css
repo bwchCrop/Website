@@ -1,0 +1,170 @@
+aside.main-sidebar section.sidebar {
+  padding-bottom: 0px !important;
+  min-height: 585px !important;
+  height: 80vh !important; }
+  aside.main-sidebar section.sidebar ul.sidebar-menu {
+    margin-bottom: 50px !important;
+    margin-right: 12px !important;
+    border-right: 1px solid white !important; }
+  aside.main-sidebar section.sidebar .user-panel {
+    margin-right: 12px !important;
+    border-right: 1px solid white !important;
+    width: initial !important; }
+
+section.content-header {
+  padding: 0; }
+section.content {
+  padding: 10px 15px !important;
+  overflow: overlay; }
+  section.content .page-header {
+    padding-left: 15px; }
+
+label.light {
+  font-weight: 100 !important; }
+label.normal {
+  font-weight: normal !important; }
+
+input[type='search'].form-control, select.form-control {
+  border-radius: 0px !important; }
+
+.form-group-sm.form-control {
+  border-radius: 0px !important; }
+
+.padding-bottom-15 {
+  padding-bottom: 15px !important; }
+
+.skin-blue .sidebar-menu > li.header {
+  background: #222d32; }
+
+.slimScrollDiv {
+  height: 91vh !important; }
+
+.sidebar {
+  height: 80vh !important; }
+
+.slimScrollBar {
+  width: 10px !important; }
+
+.content-wrapper {
+  min-height: 550px !important; }
+
+.toolbar-action, .dataTables_length {
+  float: left; }
+
+.toolbar-action {
+  margin-right: 15px; }
+
+.icheckbox_minimal-blue {
+  z-index: 49; }
+
+.bottom-margin {
+  margin-bottom: 15px !important; }
+
+/* - - */
+.no-padding {
+  padding: 0px !important; }
+
+.no-padding-lr {
+  padding-left: 0px !important;
+  padding-right: 0px !important; }
+
+.no-padding-l {
+  padding-left: 0px !important; }
+
+.no-padding-r {
+  padding-right: 0px !important; }
+
+/* - - */
+.overlay {
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+  .overlay.main {
+    z-index: 9999 !important;
+    position: fixed !important; }
+  .overlay i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -15px;
+    margin-top: -15px;
+    color: #000;
+    font-size: 30px; }
+
+.container-fluid.view-wizard .row.row-database .fa.fa-close {
+  font-size: 12px;
+  padding-top: 10px;
+  padding-left: 10px; }
+.container-fluid.view-wizard .row.row-database .no-right {
+  border-right: 0px !important; }
+.container-fluid.view-wizard .row.row-view .collapse, .container-fluid.view-wizard .row.row-view .collapsing {
+  padding: 10px 0px 0px 25px; }
+  .container-fluid.view-wizard .row.row-view .collapse .well, .container-fluid.view-wizard .row.row-view .collapsing .well {
+    padding-bottom: 5px; }
+.container-fluid.view-wizard .row .box {
+  margin: 0px;
+  width: 80%; }
+  .container-fluid.view-wizard .row .box .wizard-preview {
+    padding: 15px;
+    border: 1px solid #eee; }
+  .container-fluid.view-wizard .row .box.box-preview {
+    width: 100%; }
+
+.box {
+  margin-bottom: 0px; }
+  .box hr.separator {
+    margin: 0; }
+  .box #calendar {
+    margin: 20px;
+    border: 1px solid;
+    border-color: #ddd; }
+  .box .box-header .box-tools.menu-tab {
+    padding: 5px 15px; }
+    .box .box-header .box-tools.menu-tab .pagination li a {
+      padding: 10px; }
+  .box .box-body {
+    padding: 15px; }
+    .box .box-body table tr td.icheck, .box .box-body table tr th.icheck {
+      padding-right: 8px;
+      color: white; }
+    .box .box-body table tr td img, .box .box-body table tr th img {
+      width: 40%; }
+    .box .box-body ul.todo-list {
+      margin-top: 10px; }
+      .box .box-body ul.todo-list li {
+        border-bottom: 1px solid #e6e7e8;
+        border-top: 1px solid #ffffff;
+        padding-right: 0px;
+        background: #f9f9f9; }
+        .box .box-body ul.todo-list li ul.todo-list {
+          margin-left: 10px; }
+          .box .box-body ul.todo-list li ul.todo-list li {
+            background: #f3f3f3;
+            padding-left: 15px; }
+            .box .box-body ul.todo-list li ul.todo-list li ul.todo-list {
+              margin-left: 10px; }
+              .box .box-body ul.todo-list li ul.todo-list li ul.todo-list li {
+                background: #f1f1f1;
+                padding-left: 15px; }
+    .box .box-body ul .todo-list-position, .box .box-body ul .todo-list-sort {
+      display: none; }
+
+.modal .modal-content .modal-body .outer-table {
+  height: 250px !important;
+  overflow-y: scroll;
+  overflow-x: hidden; }
+  .modal .modal-content .modal-body .outer-table table tr td p {
+    margin: 0px;
+    font-size: x-small; }
+.modal .modal-content .modal-body .loadchanged {
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+.icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+
+    &.icon-appointment{
+        background-image: url('/assets/icons/appointment-white.png');
+    }
+    &.icon-doctor{
+        background-image: url('/assets/icons/doctor-white.png');
+    }
+    &.icon-location{
+        background-image: url('/assets/icons/location-white.png');
+    }
+}

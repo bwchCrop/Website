@@ -1,0 +1,54 @@
+{
+    "liveSassCompile.settings.formats":[
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": null
+        },
+    ],
+    "liveSassCompile.settings.excludeList": [
+        "/**/node_modules/**",
+        "/.vscode/**",
+        "/.history/**",
+        "/assets/admin/**",
+        "/assets/bulma/**",
+        "/assets/bootstrap/**",
+        "/assets/bundle/**",
+        "/assets/bwch_filemanager/**",
+        "/assets/icons/**",
+        "/assets/img/**",
+        "/assets/plugins/**",
+        "/assets/static_page/**",
+        "/assets/uploads_thumb/**",
+        "/assets/front/css/style.scss",
+        "/assets/front/css/style-2.scss",
+        "/assets/front/fonts/**",
+        "/assets/front/js/**",
+        "/assets/front/slick/**",
+        "/assets/front/slick_bk/**",
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#ab86bd",
+        "activityBar.activeBorder": "#ddd4c1",
+        "activityBar.background": "#ab86bd",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#ddd4c1",
+        "activityBarBadge.foreground": "#15202b",
+        "sash.hoverBorder": "#ab86bd",
+        "statusBar.background": "#9465ab",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#ab86bd",
+        "statusBarItem.remoteBackground": "#9465ab",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#9465ab",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#9465ab99",
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "commandCenter.border": "#e7e7e799"
+    },
+    "peacock.color": "#9465AB",
+    "todohighlight.keywords": [
+        "TASK"
+    ]
+}

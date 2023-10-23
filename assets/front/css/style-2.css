@@ -1,0 +1,197 @@
+/*
+  New styles
+  Writer: Julian
+  Project: Brawijaya hospital
+*/
+@media (min-width: 768px) {
+  section.content {
+    padding: 161px 0px 0px; } }
+@media (min-width: 1024px) {
+  section.content .row.top {
+    height: auto; } }
+
+#hospital-link {
+  margin-top: 20px; }
+
+section.header .header-menu .navbar .navbar-collapse ul.nav.navbar-nav li.main:nth-child(4).new, section.header .header-menu .navbar .navbar-collapse ul.nav.navbar-nav li.main:nth-child(5).new {
+  width: 10%; }
+
+.branchlist {
+  text-align: left;
+  margin-bottom: 30px; }
+  @media (min-width: 1200px) {
+    .branchlist {
+      margin-bottom: 60px; } }
+  .branchlist h4 {
+    font-size: 18px; }
+  .branchlist img {
+    display: inline;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px; }
+  .branchlist a {
+    font-size: 16px;
+    color: #776f6f; }
+    .branchlist a:hover {
+      text-decoration: none;
+      color: #9465AB; }
+
+.group-btn {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 10px; }
+  @media (min-width: 760px) {
+    .group-btn {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 7px; } }
+
+#profileDoctorModal .modal-body.profileDoctorModalBody {
+  padding: 0 40px 20px 40px; }
+  @media (min-width: 1200px) {
+    #profileDoctorModal .modal-body.profileDoctorModalBody {
+      padding: 0 40px; } }
+  #profileDoctorModal .modal-body.profileDoctorModalBody .profile-container .profile-box:not(:last-child) {
+    margin-bottom: 1rem; }
+  #profileDoctorModal .modal-body.profileDoctorModalBody .profile-container .profile-box .label {
+    font-size: 16px;
+    color: #776f6f;
+    padding: 0;
+    font-weight: 100;
+    margin-bottom: 1rem; }
+  #profileDoctorModal .modal-body.profileDoctorModalBody .profile-container .profile-box p.text-value {
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    letter-spacing: inherit;
+    line-height: 1.50; }
+  #profileDoctorModal .modal-body.profileDoctorModalBody #pills-doctor-schedule .poli-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+    #profileDoctorModal .modal-body.profileDoctorModalBody #pills-doctor-schedule .poli-wrap h5 {
+      grid-column: 1 / span 3; }
+    #profileDoctorModal .modal-body.profileDoctorModalBody #pills-doctor-schedule .poli-wrap h5 ~ div h6.header {
+      text-align: center;
+      padding: 4px;
+      border-top: 1px solid gray;
+      border-bottom: 1px solid gray;
+      border-left: 0px solid gray; }
+    #profileDoctorModal .modal-body.profileDoctorModalBody #pills-doctor-schedule .poli-wrap h5 ~ div:first-child h6.header {
+      border-left: 1px solid gray;
+      border-top: 1px solid gray;
+      border-bottom: 1px solid gray;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px; }
+    #profileDoctorModal .modal-body.profileDoctorModalBody #pills-doctor-schedule .poli-wrap p {
+      text-align: center; }
+    #profileDoctorModal .modal-body.profileDoctorModalBody #pills-doctor-schedule .poli-wrap .schedule-wrapper {
+      display: flex;
+      flex-direction: column; }
+      #profileDoctorModal .modal-body.profileDoctorModalBody #pills-doctor-schedule .poli-wrap .schedule-wrapper .header {
+        background-color: #a2a2a2; }
+  #profileDoctorModal .modal-body.profileDoctorModalBody #pills-doctor-schedule .schedule-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; }
+    #profileDoctorModal .modal-body.profileDoctorModalBody #pills-doctor-schedule .schedule-wrapper .schedule-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      padding: 7px;
+      background-color: white;
+      color: #000;
+      font-weight: 500;
+      border-radius: 7px;
+      margin: 2px 4px 6px 4px;
+      min-width: 100px;
+      box-shadow: 0px 3px 20px -4px rgba(0, 0, 0, 0.41);
+      -webkit-box-shadow: 0px 3px 20px -4px rgba(0, 0, 0, 0.41);
+      -moz-box-shadow: 0px 3px 20px -4px rgba(0, 0, 0, 0.41); }
+      #profileDoctorModal .modal-body.profileDoctorModalBody #pills-doctor-schedule .schedule-wrapper .schedule-col .poli-text {
+        font-size: 12px;
+        border-bottom: solid 1px black;
+        text-align: center;
+        margin-bottom: 6px; }
+  #profileDoctorModal .modal-body.profileDoctorModalBody .doctor-img {
+    width: 100%;
+    height: auto; }
+  #profileDoctorModal .modal-body.profileDoctorModalBody .nav > li {
+    width: 50%; }
+  #profileDoctorModal .modal-body.profileDoctorModalBody .nav-pills > li + li {
+    margin-left: 0; }
+  #profileDoctorModal .modal-body.profileDoctorModalBody .nav > li > a {
+    padding: 4px;
+    text-align: center; }
+  #profileDoctorModal .modal-body.profileDoctorModalBody ul.nav.nav-pills.nav-fill {
+    padding: 0; }
+  #profileDoctorModal .modal-body.profileDoctorModalBody .nav-pills > li.active > a {
+    color: #fff;
+    background-color: #9465AB; }
+
+#appointment_details .poli_wrapper h4.poli_title {
+  position: relative;
+  text-align: center;
+  font-weight: 500;
+  color: #333; }
+  #appointment_details .poli_wrapper h4.poli_title::after {
+    position: absolute;
+    background-color: #333;
+    content: ' ';
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    margin-top: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto; }
+
+p.location-description a {
+  font-size: inherit; }
+
+p.location-services .link {
+  font-size: inherit; }
+
+#hospital-link .link-wrap {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 0; }
+  @media (min-width: 360px) {
+    #hospital-link .link-wrap {
+      max-width: 720px; } }
+  @media (min-width: 720px) {
+    #hospital-link .link-wrap {
+      padding: 0;
+      max-width: 300px; } }
+  #hospital-link .link-wrap a.link {
+    width: 60; }
+    @media (min-width: 720px) {
+      #hospital-link .link-wrap a.link {
+        width: 57px; } }
+
+.row.section-two {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .row.section-two .col.col-half-offset {
+    margin: 0 0 10px 0;
+    width: 100%; }
+    @media (min-width: 1200px) {
+      .row.section-two .col.col-half-offset {
+        margin: 0 10px;
+        width: 18%; } }
+    .row.section-two .col.col-half-offset .home-membership-title {
+      height: auto; }
+      @media (min-width: 768px) {
+        .row.section-two .col.col-half-offset .home-membership-title {
+          height: 42px; } }
+    .row.section-two .col.col-half-offset img {
+      margin-bottom: 10px; }
+
+/*# sourceMappingURL=style-2.css.map */
